@@ -1,0 +1,124 @@
+#hname{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+.pTable th{
+  font-weight: 900;
+  background-color: #0bb1da;
+}
+
+
+.pTable th, td{
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+tr:nth-child(even) {
+  background-color: #ccc9c9;
+}
+
+#editBtn, #deleteBtn{
+  width: 80px;
+  height: 30px; 
+  border: none;
+  border-radius: 10px;
+}
+
+#editBtn{
+  background-color: #3733E5;
+  color: rgb(255, 255, 255);
+}
+
+#deleteBtn{
+  background-color: red;
+}
+
+#editBtn:hover, #deleteBtn:hover{
+  background-color: cornflowerblue;
+}
+
+
+#vehicle{
+  width: 180px;
+  border-color: wheat;
+  padding: 3px 0 3px 13px;
+  
+}
+
+
+
+
+/*log out button and submit button*/
+.subBtn {
+  appearance: button;
+  background-color: #4D4AE8;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #4D4AE8;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.subBtn:focus:not(:focus-visible),
+.subBtn:focus {
+  outline: 0;
+}
+
+.subBtn:hover {
+  background-color: #3733E5;
+  border-color: #3733E5;
+}
+
+.subBtn:focus {
+  background-color: #413FC5;
+  border-color: #3E3BBA;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.subBtn:active {
+  background-color: #3E3BBA;
+  background-image: none;
+  border-color: #3A38AE;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.subBtn:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.subBtn:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}

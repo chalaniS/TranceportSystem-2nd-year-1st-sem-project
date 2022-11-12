@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  
+  
+  <servlet>
+    <servlet-name>deliveryInsert</servlet-name>
+    <servlet-class>com.delivery.deliveryInsert</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>deliveryInsert</servlet-name>
+    <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>deliveryHistory</display-name>
+    <servlet-name>deliveryHistoryServlet</servlet-name>
+    <servlet-class>com.delivery.deliveryHistoryServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>deliveryHistoryServlet</servlet-name>
+    <url-pattern>/deliveryHistory</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>updateDeliveryServlet</display-name>
+    <servlet-name>updateDeliveryServlet</servlet-name>
+    <servlet-class>com.delivery.updateDeliveryServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>updateDeliveryServlet</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

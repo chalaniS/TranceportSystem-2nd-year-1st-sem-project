@@ -1,0 +1,72 @@
+body{
+    background-image: url(/src/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size:cover;    
+}
+
+.cont2{
+    padding: 0 50px 0 50px;
+}
+
+#hname{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.box{
+    height: 450px;
+    padding: 30px 10px 10px 0;
+    align-items: center;  
+    justify-content: space-evenly;         
+    background-color: rgb(207, 252, 249);
+    color: #272927;
+    width: 570px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    border-radius: 20px;
+   
+}
+
+.a {   
+    float: right;   
+}
+
+
+#asDriver, #asPassengers{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+   
+}
+
+#pimg, #dimg{
+    width: 150px;
+}
+.btn {
+  background-image: linear-gradient(-180deg, #2805ea 0%, #031d28 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center; 
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 80%;
+  border: 0;
+  cursor: pointer;
+  user-select: none; 
+  margin-left: 50px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #141f9b 100%);
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 1rem 2rem;
+  }
+}
